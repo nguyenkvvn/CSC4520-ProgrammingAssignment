@@ -34,16 +34,7 @@ public class PoorlyFormattedInputParser
         
         File file = new File(filepath);
         Scanner textReader = new Scanner(file);
-        
-//        int i = 0;
-//        while (textReader.hasNextLine())
-//        {
-//            //AbominableOutput[i] = textReader.nextLine();
-//            System.out.println("Reading " + textReader.nextLine());
-//            i++;
-//        }
-        
-        //textReader = new Scanner(file);
+
         AbominableOutput = new ArrayList();
         int i = 0;
         while (textReader.hasNextLine())
@@ -92,27 +83,8 @@ public class PoorlyFormattedInputParser
             {
                 //System.out.println("Parsing Line " + i + ": was am empty line!");
             }
-            
-            
-//            //extract the integers out of the line
-//            //CITATION: https://stackoverflow.com/questions/12721261/how-to-extract-multiple-integers-from-a-string-in-java
-//            System.out.println("Parsing] Line " + i + ": " + AbominableOutput.get(i));
-//            Matcher m = Pattern.compile("\\d+/g").matcher(AbominableOutput.get(i));
-//            try
-//            {
-//                System.out.println(m.group());
-//                //settedVertex = Integer.parseInt(m.group());
-//                graphfromfile.addVertex(AbominableOutput.get(i));
-//                System.out.println("Added] " + AbominableOutput.get(i) + " as a vertex.");
-//               // int vertex = Integer.parseInt(AbominableOutput.get(i));
-//            }
-//            catch (Exception e)
-//            {
-//                //do nothing if there isn't a match.
-//                System.out.println("Line " + i + ": " + AbominableOutput.get(i) + " was empty.");
-//            }
         }
-        
+
         for (int i = 1; i < AbominableOutput.size(); i++)
         {
             //VERTEX CONDITION

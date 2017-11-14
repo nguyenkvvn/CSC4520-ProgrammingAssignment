@@ -89,7 +89,6 @@ public class ProgrammingAssignment
                         //if the distance of the current vertex to the termating vertex is less than the current value
                     if (vertexesWeight[java.util.Arrays.asList(vertexes).indexOf(vertexes[i])] > distance)
                     {
-                        //Object e = g.getEdge(vertexes[java.util.Arrays.asList(vertexes).indexOf("0")], edge);
                         //set the termating vertex's distance of the edge to the node's distance in the parallel array
                         vertexesWeight[i] = distance;
                     }
