@@ -52,7 +52,6 @@ public class PoorlyFormattedInputParser
             //System.out.println("Adding " + AbominableOutput.get(i));
             i++;
         }
-        System.out.println(AbominableOutput);
         textReader.close();
     }
     
